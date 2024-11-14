@@ -1,0 +1,38 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+#container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    width: 100%;
+    flex-direction: column;
+    background-color:blanchedalmond;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    text-shadow: 2px 4px 10px black;
+    color: white;
+}
+textarea{
+    height: 200px;
+    width: 300px;
+    margin:25px 0;
+    outline-style: none;
+    border: none;
+    box-shadow: 10px 10px 10px black; 
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+}

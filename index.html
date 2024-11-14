@@ -1,0 +1,26 @@
++
++*-\   AQ2   qA  `12345/*-<!DOCTYPE>
+<html>
+<head>
+    <title>TEXT TO SPEAK</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Text to speak</h1>
+        <textarea id="texttospeak" placeholder="enter the text"></textarea>
+        <button onclick="speak()">Text to speak</button>
+    </div>
+</body>
+<script>
+    var speech=new SpeechSynthesisUtterance();
+    function speak(){
+        speech.text=texttospeak.value;
+
+                speech.volume=50;
+        speech.pitch=50;
+
+        window.SpeechSynthesis.speak(speech);
+    }
+</script>
+</html>
